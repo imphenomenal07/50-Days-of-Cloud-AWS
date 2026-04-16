@@ -29,5 +29,5 @@ And Launch instance
 # Step3: Access nginx server
 
 -  Wait for few mins until instance passes all the health checks
-- Copy Public Ip address of instance and paste in browser
+- Copy Public Ip address of instance and open in browser
 - If nginx not running, refresh the page or trouble the instance configurations!!
