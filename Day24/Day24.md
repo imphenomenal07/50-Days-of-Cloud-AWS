@@ -19,8 +19,7 @@ AWS Console > EC2 > Load Balancing > Target Groups
 
 AWS Console > EC2 > Load Balancing > Load Balancers > Select 'Application Load Balancer'
 
-#Select the security group we have created, not default one
-#Select the same target group as well
+#Select the 'security group' and the same 'target group' we have created, not default one
 
 # Step5: Access Load Balancer in Browser
 
