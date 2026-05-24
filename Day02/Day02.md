@@ -10,7 +10,7 @@ Search for 'EC2' and open EC2 dashbaord > Secuirty Group > Create 'Security Grou
 # Step3: Go back to terminal and run the below command to verify
 $ aws ec2 describe-security-groups
 
-#expected outpu
+#expected output
 
 {
   "SecurityGroups": [
@@ -52,4 +52,3 @@ $ aws ec2 describe-security-groups
     }
   ]
 }
-
