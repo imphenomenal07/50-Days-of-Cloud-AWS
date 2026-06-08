@@ -4,23 +4,31 @@
 
 # Step1: Create IAM user
 
-aws iam create-user --user-name iamuser_jim
+$ aws iam create-user --user-name iamuser_jim
 
 # Expected Output:
 
 {
+
     "User": {
+    
         "Path": "/",
+        
         "UserName": "iamuser_jim",
+        
         "UserId": "AIDA2NAEWZZ5XTEDHHW4T",
+        
         "Arn": "arn:aws:iam::715121938043:user/iamuser_jim",
+        
         "CreateDate": "2026-02-17T06:44:54Z"
+        
     }
+    
 }
 
 # Step2: Verify user
 
-aws iam get-user --user-name iamuser_jim
+$ aws iam get-user --user-name iamuser_jim
 
 # Expected Output:
 
@@ -36,7 +44,7 @@ aws iam get-user --user-name iamuser_jim
 
 # To list all IAM users
 
-aws iam list-users
+$ aws iam list-users
 
 # Expected Output:
 
