@@ -9,28 +9,51 @@ $ vi ravi-policy.json
 #Policy
 
 {
+
   "Version": "2012-10-17",
+  
   "Statement": [
+  
     {
+    
       "Sid": "EC2ReadOnlyAccess",
+      
       "Effect": "Allow",
+      
       "Action": [
+      
         "ec2:DescribeInstances",
+        
         "ec2:DescribeImages",
+        
         "ec2:DescribeSnapshots",
+        
         "ec2:DescribeVolumes",
+        
         "ec2:DescribeTags",
+        
         "ec2:DescribeSecurityGroups",
+        
         "ec2:DescribeKeyPairs",
+        
         "ec2:DescribeNetworkInterfaces",
+        
         "ec2:DescribeSubnets",
+        
         "ec2:DescribeVpcs",
+        
         "ec2:DescribeRegions",
+        
         "ec2:DescribeAvailabilityZones"
+        
       ],
+      
       "Resource": "*"
+      
     }
+    
   ]
+  
 }
 
 # Step2: Create the IAM policy
