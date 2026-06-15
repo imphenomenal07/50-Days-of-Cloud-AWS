@@ -7,6 +7,7 @@
 AWS Console > S3 > Create Bucket
 
 Bucket type: General purpose
+
 Bucket name: 
 
 Object Ownership: ACLs disabled
@@ -36,7 +37,15 @@ Open bucket > Permissions > Bucket policy > Edit > Paste the below content in ed
 
 # Step4: Copy index file from AWS client to s3
 
-aws s3 cp <LocalPath> <S3Uri> or <S3Uri> <LocalPath> or <S3Uri> <S3Uri>
+aws s3 cp LocalPath S3Uri
+
+OR
+
+aws s3 cp S3Uri LocalPath
+
+OR
+
+aws s3 cp S3Uri S3Uri
 
 aws s3 cp /root/index.html s3://xfusion-web-14165
 
