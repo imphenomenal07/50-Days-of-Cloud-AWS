@@ -6,3 +6,8 @@ All the tasks have been completed and verify the certificate below:
 
 **Link to certificate:** https://engineer.kodekloud.com/certificate-verification/2220006d-13fb-4825-89b0-1245fec65fab
 
+# Tasks
+
+All tasks are given below:
+
+Day 1: Create Key Pair
